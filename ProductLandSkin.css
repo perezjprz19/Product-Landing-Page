@@ -1,0 +1,113 @@
+:root {
+  background-color: rgba(174, 187, 207, 0.4);
+  font-family: "Playfair Display", serif;
+  color: #000033;
+}
+
+#header-img {
+  position: absolute;
+  min-height: 15%;
+  margin: 4px;
+  min-width: 5%;
+  max-width: 7.5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+#nav-bar {
+  display: grid;
+  float: right;
+}
+
+.nav-link {
+  margin: 5px;
+  font-size: 20px;
+  color: #000033;
+  text-decoration: none;
+}
+
+#hook {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.Qualities {
+  font-weight: bold;
+  font-size: 20px;
+}
+.truckers,
+#video {
+  border: 2px solid darkgreen;
+}
+#Gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid darkgreen;
+  width: 25%;
+  margin: 5% 35%;
+}
+
+#submit {
+  display: block;
+  background-color: darkgreen;
+  margin: auto;
+  color: rgb(174, 187, 207);
+  padding: 1%;
+  margin-bottom: 8px;
+}
+
+#request {
+  max-width: 98%;
+  min-width: 98%;
+  min-height: 10%;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 834px) {
+  #Gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #hook {
+    font-size: 15px;
+  }
+  #header-img {
+    margin-left: auto;
+  }
+
+  #nav-bar {
+    display: inline;
+    text-align: center;
+    position: relative;
+    margin-right: 10%;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  #request {
+    max-width: 97%;
+    min-width: 97%;
+  }
+  #form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 12%;
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	<head>
+		<link rel = "stylesheet" href =  "C:\Users\Jessica\Desktop\PersonalCodingProjects\ProductLandSkin.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+		<meta charset = "utf-8">
+	</head>
+	
+	<body>
+  <header id="header">
+    <title>ABC Brokerage Inc.</title>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Road_Ranger_LLC_Company_Logo.jpg/220px-Road_Ranger_LLC_Company_Logo.jpg" id="header-img" alt="road ranger logo">
+
+    <!--Navigation Bar-->
+
+    <nav id="nav-bar">
+      <a href="#About" class="nav-link">About Us</a>
+      <a href="#Gallery" class="nav-link">Photo Gallery</a>
+      <a href="#form" class="nav-link">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 id="About">ABC Brokerage Inc.</h1>
+    <p id="hook">An Asset to your Business</p><br>
+
+    <p class="Qualities">Reliable</p><br>
+    <p>We hire experienced carriers from most of the United States who will have your product where you need it, when you need it.</p><br>
+
+    <p class="Qualities">Quality Assurance</p><br>
+    <p>The quality of your product is our top priority. We'll assess the best route to ensure your product arrives safely to its destination.</p><br>
+
+    <p class="Qualities">Partnership</p><br>
+    <p>We pride ourselves in maintaining a positive relationship with shippers and carriers. Here at ABC Brokerage Inc, we are about forming mutually beneficial partnerships. Join us today!</p><br>
+
+    <!--Contact form for quote-->
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+      <h2>Get in Touch!</h2>
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" placeholder="Jane Doe" id="name" required>
+
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" name="email" placeholder="ABC@email.com" id="email" required>
+
+      <label for="phone" id="phone-label">Phone Number:</label>
+      <input type="phone" placeholder="123-456-7890" id="phone" required><br>
+
+      <label for="request" id="text-label">Additional Comments:</label><br>
+      <textarea id="request" placeholder="Tell us what you need."></textarea>
+
+      <input type="submit" id="submit">
+    </form>
+
+    <h2>Our Carriers</h2>
+
+    <div id="Gallery">
+      <img src="https://images.unsplash.com/photo-1605705658744-45f0fe8f9663?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Yellow Truck" class="truckers">
+      <img src="https://images.unsplash.com/photo-1506306460327-3164753b74c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="White Freight Truck" class="truckers">
+      <img src="https://images.unsplash.com/photo-1616340786004-7c444e530ce3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="White Volvo Truck" class="truckers">
+      <br>
+      <iframe id="video" width="334" height="500" src="https://www.youtube.com/embed/tTgGxIrXafw" title="YouTube video player" frameborder="4"></iframe>
+    </div>
+  </main>
+</body>
+</html>
+
